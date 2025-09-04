@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>
+      Sabhyata Chaurasia - Portfolio | Full Stack Web Developer & Designer
+    </title>
+    <meta
+      name="title"
+      content="Sabhyata Chaurasia - Portfolio | Full Stack Web Developer & Designer"
+    />
+    <meta
+      name="description"
+      content="Hi, I'm Sabhyata Chaurasia, a Full Stack Web Developer, UI/UX Designer, and Coder. Explore my portfolio to see projects, resume, and services."
+    />
+    <meta
+      name="keywords"
+      content="Sabhyata Chaurasia, Portfolio, Web Developer, Full Stack Developer, UI/UX Designer, Frontend, Backend, Projects, Resume"
+    />
+    <meta name="author" content="Sabhyata Chaurasia" />
+
+    <!-- Google Site Verification -->
+    <meta
+      name="google-site-verification"
+      content="PASTE_YOUR_VERIFICATION_CODE_HERE"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourname-portfolio.netlify.app/" />
+    <meta property="og:title" content="Sabhyata Chaurasia - Portfolio" />
+    <meta
+      property="og:description"
+      content="Portfolio of Sabhyata Chaurasia, Full Stack Developer & Designer. Check out my projects and experience."
+    />
+    <meta
+      property="og:image"
+      content="https://yourname-portfolio.netlify.app/sabhyata%20(1).png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://yourname-portfolio.netlify.app/"
+    />
+    <meta property="twitter:title" content="Sabhyata Chaurasia - Portfolio" />
+    <meta
+      property="twitter:description"
+      content="Portfolio of Sabhyata Chaurasia, Full Stack Developer & Designer. Explore my projects, resume, and services."
+    />
+    <meta
+      property="twitter:image"
+      content="https://yourname-portfolio.netlify.app/sabhyata%20(1).png"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="sabhyata (1).png" type="image/png" />
+
+    <!-- External CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">Sabhyata</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav>
+        <a href="#" class="active">Home </a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <!-- home section -->
+    <section class="home active">
+      <div class="home-detail">
+        <h1>Sabhyata Chaurasia</h1>
+        <h2>
+          I'm a
+          <span style="--i: 3" data-text="Coder">Coder</span>
+          <span style="--i: 2" data-text="Full  Stack  Web  Developer"
+            >Full Stack Web Developer</span
+          >
+          <span style="--i: 1" data-text="Ui / Ux  Designer"
+            >Ui / Ux Designer</span
+          >
+        </h2>
+        <p>
+          "Passionate about turning concepts into reality, I develop full-stack
+          applications that enhance user experiences and drive innovation. From
+          crafting responsive UI with React to designing robust backend systems
+          with Node.js, I bring ideas to life through clean code and creative
+          solutions."
+        </p>
+        <div class="btn-sci">
+          <button class="btn" onclick="downloadCV()">Download CV</button>
+          <script>
+            function downloadCV() {
+              const link = document.createElement("a");
+              link.href = "Sabhyata.pdf";
+              link.download = "Sabhyata_CV.pdf";
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }
+          </script>
+          <div class="sci">
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img
+              src="sabhyata (1).png"
+              alt="Sabhyata Chaurasia Portfolio Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            From clean design to powerful features, I create websites that bring
+            ideas to life. Every project is crafted to be modern, responsive,
+            and user-focused.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bxs-paint"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>UI / UX Design</h3>
+          <p>
+            I design intuitive and visually appealing interfaces that enhance
+            user experiences. My focus is on creating designs that are simple,
+            engaging, and user-friendly.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-palette"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>
+            I create visually striking designs that communicate ideas with
+            clarity and creativity. My work blends aesthetics with purpose to
+            leave a lasting impression.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-slideshow"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Video Editing</h3>
+          <p>
+            From storytelling to smooth visuals, I edit videos that inspire and
+            connect. My focus is on creating professional, impactful, and
+            audience-driven content.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume section -->
+    <section class="resume">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why Hire Me?</h2>
+          <p class="desc">
+            I specialize in building complete web solutions from front-end
+            design to back-end logic. With a full-stack skill set, I deliver
+            scalable, responsive, and user-focused applications.
+          </p>
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-detail experience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">
+              I have gained experience in web development and UI/UX design,
+              working with technologies like React, Next.js, and Node.js while
+              creating responsive applications and user-friendly interfaces. My
+              internships and projects have strengthened my skills in both
+              frontend and backend development.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2025 - Present</p>
+                <h3>Web Developer</h3>
+                <p class="company">I.P. Tech</p>
+                <p>
+                  Developed and maintained responsive web applications using
+                  React.js, Next.js, and Node.js.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">February 2025 - June 2025</p>
+                <h3>Web Developer Intern</h3>
+                <p class="company">Elgoss pvt. ltd.</p>
+                <p>
+                  Assisted in building and deploying interactive websites using
+                  HTML, CSS, JavaScript, and React.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2024 - 2025</p>
+                <h3>UI/UX Designer Intern</h3>
+                <p class="company">Codesoft</p>
+                <p>
+                  Designed user-friendly interfaces and prototypes using Figma
+                  and Adobe XD.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              I have built a strong academic foundation in computer science,
+              completing my B.Sc. in Computer Science and currently completed an
+              MCA from AKTU. Along with my studies, I have enhanced my skills
+              through professional courses like Full Stack Web Development,
+              gaining both theoretical knowledge and practical expertise.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2025</p>
+                <h3>Full Stack Web Development Course</h3>
+                <p class="company">I.P. Tech</p>
+                <p>Certified</p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2023 - 2025</p>
+                <h3>MCA</h3>
+                <p class="company">Kashi Institute of Technology, AKTU</p>
+                <p>8.29 CGPA</p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2020 - 2023</p>
+                <h3>B.SC - B.Sc in Computer Science</h3>
+                <p class="company">
+                  Ishwar Saran Degree College, University of Allahabad
+                </p>
+                <p>68.74%</p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2019 - 2020</p>
+                <h3>Intermediate - Class 12th</h3>
+                <p class="company">St. Mary's Convent School</p>
+                <p>84.6%</p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2017 - 2018</p>
+                <h3>High School - Class 10th</h3>
+                <p class="company">St. Mary's Convent School</p>
+                <p>80.2%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              I possess strong technical skills in front-end and back-end
+              development, working with HTML, CSS, JavaScript, React, Node.js,
+              and MySQL. I also have hands-on experience with UI/UX tools like
+              Figma.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class="bx bxl-figma"></i>
+                <span>Figma</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-html5"></i>
+                <span>HTML5</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-css3"></i>
+                <span>CSS</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-javascript"></i>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-react"></i>
+                <span>React.js</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-nodejs"></i>
+                <span>Node.js</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-tailwind-css"></i>
+                <span>Tailwind CSS</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-python"></i>
+                <span>Python</span>
+              </div>
+
+              <div class="resume-item">
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="desc">
+              I’m Sabhyata Chaurasia, a passionate web developer from Varanasi,
+              currently completed MCA. I enjoy turning ideas into responsive and
+              user-friendly applications while constantly learning new
+              technologies to create innovative and impactful digital solutions.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name <span>Sabhyata Chaurasia</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Age <span>22 Years</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Gender <span>Female</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Status <span>Unmarried</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>City <span>Varanasi</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Nationality <span>Indian</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Experience <span>Fresher</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Mobile No. <span>(+91)9044941693</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Email <span>sabhyatachaurasia15@gmail.com</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Languages <span>English, Hindi</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>Frontend Project</h3>
+            <p>Frontend Projects are made using HTML, CSS, JS.</p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>Frontend Project</h3>
+            <p>Frontend Projects are made using HTML, CSS, JS.</p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+            <h3>Frontend Project</h3>
+            <p>Frontend Projects are made using HTML, CSS, JS.</p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">04</p>
+            <h3>Frontend Project</h3>
+            <p>Frontend Projects are made using HTML, CSS, JS.</p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">05</p>
+            <h3>Frontend Project</h3>
+            <p>Frontend Projects are made using HTML, CSS, JS.</p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">06</p>
+            <h3>Frontend Project</h3>
+            <p>Frontend Projects are made using HTML, CSS, JS.</p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <div class="portfolio-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="portfolio1.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="portfolio2.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="portfolio3.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="portfolio4.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="portfolio5.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="portfolio6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">Welcome to the chat of Sabhyata!</p>
+          <div class="contact-detail">
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>(+91)9044941693</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class="bx bx-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>sabhyatachaurasia15@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class="bx bxs-map"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>Ashok Nagar Colony, Sarnath Varanasi</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form action="">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" required />
+              <input type="email" placeholder="Email Address" required />
+              <input type="text" placeholder="Phone Number" required />
+              <input type="text" placeholder="Email Subject" required />
+              <textarea
+                name=""
+                id=""
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
